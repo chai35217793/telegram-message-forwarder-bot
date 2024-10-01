@@ -26,11 +26,3 @@ replace = { "old" = "new" } # optional
 from = [-1002148671653, -100123456789]               # required
 to = -1002481981021                               # required
 replace = { "only_apply_to_this_chat" = "new" } # optional
-
-[[chats]]
-from = -100123456789            # required
-to = [123456789, -100123456789] # required
-
-[[chats]]
-from = [123456789, -100123456789] # required
-to = [123456789, -100123456789]   # required
