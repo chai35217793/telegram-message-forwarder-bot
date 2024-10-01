@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD /bin/sh -c "gunicorn appapp & python3 -m bot"
+CMD /bin/sh -c "gunicorn app:app & python3 -m bot"
