@@ -18,13 +18,13 @@ sudo_users = [123456789, 123456789]                                 # optional
 # Atleast one chat must be added
 
 [[chats]]
-from = -100123456789        # required
-to = 123456789              # required
+from = -1002481981021        # required
+to = -1002148671653              # required
 replace = { "old" = "new" } # optional
 
 [[chats]]
-from = [123456789, -100123456789]               # required
-to = 123456789                                  # required
+from = [-1002148671653, -100123456789]               # required
+to = -1002481981021                               # required
 replace = { "only_apply_to_this_chat" = "new" } # optional
 
 [[chats]]
